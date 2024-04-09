@@ -181,17 +181,50 @@ table tr:last-child {
 @media screen and (max-width: 768px) {
 
   /* CSS for smaller screens (e.g., smartphones) */
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
 }
 
 
 @media (min-width: 600px) {
 
   /* Styles for tablets and larger */
-  body {
+  /* body {
     background-color: aqua;
+  } */
+
+  /* Styles for desktops  */
+  body {
+    width: 100%;
+    justify-items: center;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  img {
+    padding: 32px 32px;
+    border-radius: 50px;
+  }
+
+  .instructions li {
+    margin-bottom: 38px;
+  }
+
+  .recipe-name-and-description h1 {
+    font-size: 34px;
+  }
+
+  .recipe-preparation-time h3 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .ingredient li::marker {
+    font-size: large;
   }
 }
 
